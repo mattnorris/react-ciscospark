@@ -89,7 +89,7 @@
     "immutable": "^3.8.1",
     "jest-junit": "^3.7.0",
     "linkifyjs": "^2.1.4",
-    "lodash": "^4.17.2",
+    "lodash": "^4.17.11",
     "marked": "^0.3.6",
     "material-ui": "^0.19.4",
     "moment": "^2.17.1",
