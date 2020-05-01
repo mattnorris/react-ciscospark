@@ -1,0 +1,136 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/plugin-phone > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - ampersand-events > lodash:
+        patched: '2020-05-01T00:09:06.093Z'
+    - firefox-profile > lodash:
+        patched: '2020-05-01T00:09:06.093Z'
+    - react-mentions > lodash:
+        patched: '2020-05-01T00:09:06.093Z'
+    - react-redux > lodash:
+        patched: '2020-05-01T00:09:06.093Z'
+    - redux > lodash:
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/plugin-phone > @ciscospark/media-engine-webrtc > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/spark-core > ampersand-events > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/plugin-phone > ampersand-collection > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/plugin-phone > ampersand-state > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/plugin-phone > ampersand-collection-lodash-mixin > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - firefox-profile > async > lodash:
+        patched: '2020-05-01T00:09:06.093Z'
+    - firefox-profile > archiver > lodash:
+        patched: '2020-05-01T00:09:06.093Z'
+    - react-mentions > substyle > lodash:
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-team > @ciscospark/internal-plugin-conversation > @ciscospark/internal-plugin-user > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/plugin-phone > ampersand-collection > ampersand-class-extend > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/plugin-phone > ampersand-collection > ampersand-events > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/plugin-phone > ampersand-state > ampersand-events > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/plugin-phone > @ciscospark/media-engine-webrtc > ampersand-events > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-presence > @ciscospark/internal-plugin-wdm > ampersand-collection > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-presence > @ciscospark/internal-plugin-wdm > ampersand-state > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - firefox-profile > archiver > archiver-utils > lodash:
+        patched: '2020-05-01T00:09:06.093Z'
+    - firefox-profile > archiver > async > lodash:
+        patched: '2020-05-01T00:09:06.093Z'
+    - firefox-profile > archiver > zip-stream > lodash:
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-team > @ciscospark/internal-plugin-conversation > @ciscospark/internal-plugin-encryption > @ciscospark/internal-plugin-mercury > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-presence > @ciscospark/internal-plugin-wdm > ampersand-collection > ampersand-class-extend > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-presence > @ciscospark/internal-plugin-wdm > ampersand-collection > ampersand-events > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-presence > @ciscospark/internal-plugin-wdm > ampersand-state > ampersand-events > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/plugin-phone > @ciscospark/internal-plugin-locus > @ciscospark/spark-core > ampersand-events > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/plugin-authorization > @ciscospark/plugin-authorization-node > @ciscospark/internal-plugin-wdm > ampersand-collection > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/plugin-authorization > @ciscospark/plugin-authorization-node > @ciscospark/internal-plugin-wdm > ampersand-state > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - firefox-profile > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-team > @ciscospark/internal-plugin-conversation > @ciscospark/internal-plugin-encryption > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-feature > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/plugin-authorization > @ciscospark/plugin-authorization-node > @ciscospark/internal-plugin-wdm > ampersand-collection > ampersand-class-extend > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/plugin-authorization > @ciscospark/plugin-authorization-node > @ciscospark/internal-plugin-wdm > ampersand-collection > ampersand-events > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/plugin-authorization > @ciscospark/plugin-authorization-node > @ciscospark/internal-plugin-wdm > ampersand-state > ampersand-events > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-team > @ciscospark/internal-plugin-conversation > @ciscospark/internal-plugin-user > @ciscospark/spark-core > ampersand-events > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-team > @ciscospark/internal-plugin-conversation > @ciscospark/internal-plugin-user > @ciscospark/internal-plugin-wdm > ampersand-collection > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-team > @ciscospark/internal-plugin-conversation > @ciscospark/internal-plugin-user > @ciscospark/internal-plugin-wdm > ampersand-state > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-team > @ciscospark/internal-plugin-conversation > @ciscospark/internal-plugin-encryption > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-metrics > @ciscospark/internal-plugin-wdm > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-team > @ciscospark/internal-plugin-conversation > @ciscospark/internal-plugin-user > @ciscospark/internal-plugin-wdm > ampersand-collection > ampersand-class-extend > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-team > @ciscospark/internal-plugin-conversation > @ciscospark/internal-plugin-user > @ciscospark/internal-plugin-wdm > ampersand-collection > ampersand-events > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-team > @ciscospark/internal-plugin-conversation > @ciscospark/internal-plugin-user > @ciscospark/internal-plugin-wdm > ampersand-state > ampersand-events > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-team > @ciscospark/internal-plugin-conversation > @ciscospark/internal-plugin-encryption > @ciscospark/internal-plugin-mercury > @ciscospark/spark-core > ampersand-events > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-team > @ciscospark/internal-plugin-conversation > @ciscospark/internal-plugin-encryption > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-wdm > ampersand-collection > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-team > @ciscospark/internal-plugin-conversation > @ciscospark/internal-plugin-encryption > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-wdm > ampersand-state > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-team > @ciscospark/internal-plugin-conversation > @ciscospark/internal-plugin-encryption > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-metrics > @ciscospark/internal-plugin-wdm > @ciscospark/spark-core > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-team > @ciscospark/internal-plugin-conversation > @ciscospark/internal-plugin-encryption > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-wdm > ampersand-collection > ampersand-class-extend > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-team > @ciscospark/internal-plugin-conversation > @ciscospark/internal-plugin-encryption > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-wdm > ampersand-collection > ampersand-events > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-team > @ciscospark/internal-plugin-conversation > @ciscospark/internal-plugin-encryption > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-wdm > ampersand-state > ampersand-events > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-team > @ciscospark/internal-plugin-conversation > @ciscospark/internal-plugin-encryption > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-metrics > @ciscospark/spark-core > ampersand-events > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-team > @ciscospark/internal-plugin-conversation > @ciscospark/internal-plugin-encryption > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-metrics > @ciscospark/internal-plugin-wdm > ampersand-collection > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-team > @ciscospark/internal-plugin-conversation > @ciscospark/internal-plugin-encryption > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-metrics > @ciscospark/internal-plugin-wdm > ampersand-state > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-team > @ciscospark/internal-plugin-conversation > @ciscospark/internal-plugin-encryption > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-metrics > @ciscospark/internal-plugin-wdm > @ciscospark/spark-core > @ciscospark/http-core > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-team > @ciscospark/internal-plugin-conversation > @ciscospark/internal-plugin-encryption > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-metrics > @ciscospark/internal-plugin-wdm > ampersand-collection > ampersand-class-extend > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-team > @ciscospark/internal-plugin-conversation > @ciscospark/internal-plugin-encryption > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-metrics > @ciscospark/internal-plugin-wdm > ampersand-collection > ampersand-events > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-team > @ciscospark/internal-plugin-conversation > @ciscospark/internal-plugin-encryption > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-metrics > @ciscospark/internal-plugin-wdm > ampersand-state > ampersand-events > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-team > @ciscospark/internal-plugin-conversation > @ciscospark/internal-plugin-encryption > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-metrics > @ciscospark/internal-plugin-wdm > @ciscospark/spark-core > ampersand-events > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-team > @ciscospark/internal-plugin-conversation > @ciscospark/internal-plugin-encryption > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-metrics > @ciscospark/internal-plugin-wdm > @ciscospark/spark-core > ampersand-collection > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-team > @ciscospark/internal-plugin-conversation > @ciscospark/internal-plugin-encryption > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-metrics > @ciscospark/internal-plugin-wdm > @ciscospark/spark-core > ampersand-state > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-team > @ciscospark/internal-plugin-conversation > @ciscospark/internal-plugin-encryption > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-metrics > @ciscospark/internal-plugin-wdm > @ciscospark/spark-core > @ciscospark/http-core > @ciscospark/common > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-team > @ciscospark/internal-plugin-conversation > @ciscospark/internal-plugin-encryption > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-metrics > @ciscospark/internal-plugin-wdm > @ciscospark/spark-core > ampersand-collection > ampersand-class-extend > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-team > @ciscospark/internal-plugin-conversation > @ciscospark/internal-plugin-encryption > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-metrics > @ciscospark/internal-plugin-wdm > @ciscospark/spark-core > ampersand-collection > ampersand-events > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
+    - '@ciscospark/internal-plugin-team > @ciscospark/internal-plugin-conversation > @ciscospark/internal-plugin-encryption > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-metrics > @ciscospark/internal-plugin-wdm > @ciscospark/spark-core > ampersand-state > ampersand-events > lodash':
+        patched: '2020-05-01T00:09:06.093Z'
