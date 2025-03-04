@@ -57,7 +57,7 @@
   "dependencies": {
     "@ciscospark/common": "1.32.22",
     "@ciscospark/helper-html": "1.32.22",
-    "@ciscospark/internal-plugin-conversation": "1.32.22",
+    "@ciscospark/internal-plugin-conversation": "1.52.7",
     "@ciscospark/internal-plugin-encryption": "1.32.22",
     "@ciscospark/internal-plugin-feature": "1.32.22",
     "@ciscospark/internal-plugin-flag": "1.32.22",
@@ -65,7 +65,7 @@
     "@ciscospark/internal-plugin-metrics": "1.32.22",
     "@ciscospark/internal-plugin-presence": "1.32.22",
     "@ciscospark/internal-plugin-search": "1.32.22",
-    "@ciscospark/internal-plugin-team": "1.32.22",
+    "@ciscospark/internal-plugin-team": "1.52.7",
     "@ciscospark/internal-plugin-user": "1.32.22",
     "@ciscospark/plugin-authorization": "1.32.22",
     "@ciscospark/plugin-logger": "1.32.22",
